@@ -1,0 +1,13 @@
+
+PATH=~/bin:/usr/local/bin:$PATH
+
+export PATH
+
+
+# キーバインドはemacsモードにする
+bindkey -e
+
+
+#編集にemacsを使う
+export EDITOR=emacs
+

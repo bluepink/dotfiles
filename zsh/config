@@ -1,0 +1,9 @@
+# PROMPTの設定
+PROMPT=""$'\n'"%m%#: %~"$'\n'"> "
+
+
+# 補完機能を有効にする
+autoload -U compinit
+compinit
+
+
